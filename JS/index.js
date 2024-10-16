@@ -65,6 +65,9 @@ console.log(add(7,5));   //12
 
 // Event handling 
 
+
+
+// Spreading......
 // create copy of an object
 const person ={
     name:"khushi",
@@ -103,5 +106,11 @@ const lastname="solanki"
 console.log(firstname+" "+lastname);    //Tanishka solanki      //old way to add two strings    
 console.log(`${firstname} ${lastname}`)  //Tanishka solanki     //this is called template literals
 
+
+// Default values..
+const mult=(a,b=5)=>{
+    return a*b;
+}
+console.log(mult(3));
 
 
