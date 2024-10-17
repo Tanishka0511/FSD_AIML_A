@@ -66,7 +66,7 @@ async function authenticate(){
     await  displayData();
     }
     catch(err){
-        console.log("error",err);
+        console.log("error is:",err);
 
     }
 
