@@ -19,7 +19,9 @@ console.log(salary);
 
 // destructuring on array
 const emp=['abc',2,true,"xyz"];
+// before destructure
 console.log(emp[0]);
+// destructuring of objects ..
 const [namee,rollno,eligible,work]=emp;
 console.log(namee);
 console.log(rollno);
