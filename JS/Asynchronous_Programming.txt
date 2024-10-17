@@ -1,0 +1,7 @@
+Asynchronous programming is a technique that enables our program to start a potentially long-running task and still be able to be responsive to other events while that task runs, rather than having to wait until that task has finished. Once that task has finished, our program is presented with the result.
+
+
+
+in many places ,we have to use synchronous programming : for eg ..   while fill form or create account
+steps : register , send email,login,get data,display
+
