@@ -5,6 +5,7 @@ import Image from './components/Image';
 import StopWatch from './components/StopWatch';
 import RefEx from './components/RefEx';
 import Parent from './components/Parent';
+import ReducerEX from './components/ReducerEx';
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/stopWatch" element={<StopWatch/>} />
         <Route path="/RefEx" element={<RefEx/>} />
         <Route path="/Parent" element={<Parent/>} />
+        <Route path="/ReducerEx" element={<ReducerEX/>} />
         <Route path="*" element={<h1>No Page Available</h1>} />
       </Routes>
     </div>

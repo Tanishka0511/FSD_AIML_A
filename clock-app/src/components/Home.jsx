@@ -13,6 +13,7 @@ const Home =()=>{
     <li><Link to ='/Stopwatch'> stopWatch</Link></li>
     <li><Link to ='/RefEx'> useRef example</Link></li>
     <li><Link to ='/Parent'>  Props Driling Problem</Link></li>
+    <li><Link to ='/ReducerEx'>  useReducer Example</Link></li>
 </ul>
         </div>
 
