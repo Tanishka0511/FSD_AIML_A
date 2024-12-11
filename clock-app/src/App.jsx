@@ -4,6 +4,7 @@ import Home from './components/Home';
 import Image from './components/Image';
 import StopWatch from './components/StopWatch';
 import RefEx from './components/RefEx';
+import Parent from './components/Parent';
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/logout" element={<h1>Logout Page</h1>} />
         <Route path="/stopWatch" element={<StopWatch/>} />
         <Route path="/RefEx" element={<RefEx/>} />
+        <Route path="/Parent" element={<Parent/>} />
         <Route path="*" element={<h1>No Page Available</h1>} />
       </Routes>
     </div>
