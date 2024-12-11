@@ -1,6 +1,7 @@
-import React from "react";
-
-const Child3 = ({ student }) => {
+import React, { useContext } from "react";
+import { StudentContext } from "./Parent";
+const Child3 = () => {
+    const student=useContext(StudentContext)
     return (
         <div>
             <h1>Child3 Component</h1>
