@@ -7,6 +7,7 @@ const RefEx=()=>{
     function increment(){
         count.current++;
         setCount1(count1+1);
+        
     }
     return(
 
